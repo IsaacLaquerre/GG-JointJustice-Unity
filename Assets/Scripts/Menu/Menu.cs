@@ -48,6 +48,12 @@ public class Menu : MonoBehaviour
         if (_initiallyHighlightedButton == null || !_initiallyHighlightedButton.isActiveAndEnabled)
         {
             Selectable selectable = GetComponentInChildren<Selectable>();
+
+            if (selectable == null)
+            {
+                return;
+            }
+            
             if (selectable.interactable)
             {
                 selectable.Select();
