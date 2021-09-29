@@ -40,7 +40,7 @@ public class AudioController : MonoBehaviour, IAudioController
         }
         else
         {
-            _directorActionDecoder.SetAudioController(this);
+            _directorActionDecoder.AudioController = this;
         }
 
         _musicFader = new MusicFader();

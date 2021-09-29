@@ -28,7 +28,7 @@ public class EvidenceController : MonoBehaviour, IEvidenceController
         }
         else
         {
-            _directorActionDecoder.SetEvidenceController(this);
+            _directorActionDecoder.EvidenceController = this;
         }
 
         if (_evidenceInventory == null)
