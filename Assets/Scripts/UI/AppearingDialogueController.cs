@@ -32,8 +32,8 @@ public class AppearingDialogueController : MonoBehaviour, IAppearingDialogueCont
     private float _speedMultiplierFromPlayerInput = 2;
     [SerializeField, Tooltip("ActorData that is used to hide the spoken actor.")]
     private ActorData _actorDataHiddenActor;
-    [SerializeField, Tooltip("Number of letters to be displayed before playing a speech SFX")]
-    private int _lettersBeforeSpeechSFX = 4;
+    [SerializeField, Tooltip("Number of let0ters to be displayed before playing a speech SFX")]
+    private int _lettersBeforeSpeechSFX = 3;
     [SerializeField, Tooltip("Percentage of the speed before playing a speech SFX when text is sped up")]
     private float _percentageSpedUpSpeechSFX = 75;
 
